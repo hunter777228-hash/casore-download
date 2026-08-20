@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скачать Casore</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 420px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.10);
+        }
+        .icon { font-size: 72px; margin-bottom: 12px; }
+        h1 { font-size: 28px; color: #1a1a1a; margin-bottom: 4px; font-weight: 700; }
+        .subtitle { color: #666; font-size: 15px; margin-bottom: 8px; }
+        .version { font-size: 14px; color: #999; margin-bottom: 24px; }
+        .btn-download {
+            display: inline-block;
+            padding: 16px 40px;
+            background: #2688eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: background 0.15s, transform 0.1s;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(38,136,235,0.30);
+        }
+        .btn-download:hover { background: #1a7de0; }
+        .btn-download:active { transform: scale(0.97); }
+        .file-size { font-size: 13px; color: #888; margin-top: 8px; }
+        .features {
+            margin-top: 28px;
+            text-align: left;
+            font-size: 14px;
+            color: #444;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .features li { list-style: none; padding: 6px 0; display: flex; align-items: center; gap: 10px; }
+        .features li::before { content: "✅"; }
+        .footer { margin-top: 24px; font-size: 12px; color: #bbb; }
+        .note {
+            margin-top: 12px;
+            font-size: 13px;
+            color: #888;
+            background: #f8f9fa;
+            padding: 10px 14px;
+            border-radius: 8px;
+        }
+        .note strong { color: #333; }
+        .apk-info {
+            margin-top: 12px;
+            font-size: 13px;
+            color: #2e7d32;
+            background: #e8f5e9;
+            padding: 8px 14px;
+            border-radius: 8px;
+            border: 1px solid #a5d6a7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📱</div>
+        <h1>Casore</h1>
+        <div class="subtitle">Установите приложение на Android</div>
+        <div class="version">Версия 1.0.0</div>
+        
+        <!-- ЭТА ССЫЛКА ВЕДЁТ НА APK В ЭТОМ ЖЕ РЕПОЗИТОРИИ -->
+        <a href="/Casore.apk" class="btn-download">
+            📥 Скачать APK
+        </a>
+        <div class="file-size">~3 МБ</div>
+        
+        <div class="apk-info">
+            ✅ APK доступен для скачивания
+        </div>
+        
+        <div class="note">
+            ⚠️ Перед установкой разрешите <strong>«Установку из неизвестных источников»</strong> в настройках телефона.
+        </div>
+        
+        <ul class="features">
+            <li>Бесплатный мессенджер</li>
+            <li>Обмен сообщениями в реальном времени</li>
+            <li>Статус "онлайн" и "печатает..."</li>
+            <li>Тёмная тема</li>
+            <li>Авто-вход</li>
+            <li>Push-уведомления</li>
+        </ul>
+        <div class="footer">© 2026 Casore</div>
+    </div>
+</body>
+</html>
